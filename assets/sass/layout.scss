@@ -1,0 +1,83 @@
+//Imported Style from https://fonts.google.com/
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@800&display=swap");
+
+body {
+   // background-color: rgba(22, 20, 20, 0.993);
+   // color: black;
+   // text-align: center;
+   // background-color: rgb(255, 250, 250);
+   // background-color: rgb(250, 249, 246);
+   // background-color: rgb(75, 0, 130);
+   font-family: "Maven Pro", sans-serif;
+}
+.headingText {
+   font-size: 2rem;
+
+   text-align: center;
+   //   background: #1abc9c;
+   color: white;
+   font-weight: bold;
+   background-color: rgb(5, 5, 57);
+   padding: 1rem;
+
+}
+.container1 {
+   // display: flex;
+   // justify-content: center;
+   // background: #1abc9c;
+   width: 85%;
+   margin: auto;
+   // min-height: 100vh;
+   box-shadow: 0px 9px 40px 6px rgba(26, 26, 42, 0.8);
+   color: black;
+   padding: 1rem;
+   border-radius: 40px;
+
+}
+.main{
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 1rem;
+   background-color: darkgrey;
+}
+.content{
+   width: 95%;
+   margin: auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   // border: 2px solid black;
+
+}
+.btn-danger{
+   width: 100px;
+}
+
+// .main {
+//    display: flex;
+//    align-items: center;
+//    width: 90%;
+//    gap: 30px;
+//    flex-direction: column;
+//    background: #1abc9c;
+//    a {
+//       text-decoration: none;
+//    }
+//    .heading {
+//       margin-top: 15px;
+//    }
+
+//    .content {
+//       width: 100%;
+//       display: flex;
+//       flex-direction: column;
+//       align-items: center;
+//       margin-bottom: 50px;
+//    }
+// }
+
+//All the divs and body content
