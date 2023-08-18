@@ -1,5 +1,5 @@
-const Habit = require("../models/habit");
-const User = require("../models/user");
+const Habit = require("../models/habits");
+const User = require("../models/users");
 const moment = require("moment");
 const asyncHandler = require("express-async-handler");
 

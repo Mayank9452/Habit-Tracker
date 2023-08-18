@@ -42,17 +42,11 @@ app.set("view engine", "ejs");
 app.set("views", "./views");
 
 // Load Router
-app.use("/", require("./routes/index"));
+app.use("/", require("./routes/api"));
 
 app.listen(process.env.PORT, (error) => {
    if (error) {
       console.log("error in the port");
    }
-   console.log(
-      `     
-
-      ******************* HEY! SERVER IS RUNNING on Link :  http://localhost:${process.env.PORT} **********************
-      
-      `
-   );
+   console.log(`Server is running on :  http://localhost:${process.env.PORT}`);
 });
