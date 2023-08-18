@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const habitController = require("../controller.js/habit_Controller");
+const habitController = require("../controller/habit_Controller");
 
 // For rendering different pages and controllers
 // home page route
